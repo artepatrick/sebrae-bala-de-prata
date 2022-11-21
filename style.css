@@ -78,9 +78,22 @@ a {
 }
 
 a:hover {
-    color: rgba(255, 255, 255, 0.603);
+    color: rgba(143, 238, 255, 0.603);
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.15);
 }
+
+ul.lista {
+    list-style-position: outside;
+    list-style-image: url('https://i.postimg.cc/MHqTwy5K/check.png');
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+
+/* li:before {
+    content: "✅ ";
+} */
+
 
 div.bloco {
     border-radius: 10px;
