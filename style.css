@@ -46,7 +46,7 @@ p {
 }
 
 img {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 div.container {
@@ -153,4 +153,12 @@ lottie-player.lottieButton {
 lottie-player.lottie {
     width: 150px;
     height: 150px;
+}
+
+.whatsapp {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 50px;
 }
