@@ -98,3 +98,15 @@ div.bloco {
 div.imagemMenor {
     margin: 0 auto;
 }
+
+div.lottieBox {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+lottie-player.lottie {
+    width: 150px;
+    height: 150px;
+}
