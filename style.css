@@ -29,6 +29,7 @@ h2 {
     margin: 5px 0;
     padding-left: 5px;
     padding-right: 5px;
+    margin-bottom: 20px;
     color: #D91E63;
     transition: 0.3s all;
 }
@@ -121,7 +122,21 @@ img.todasAsImagens:hover {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.55);
 }
 
-a {
+a.linkEmLinha {
+    text-decoration: none;
+    padding-left: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: #D91E63;
+}
+
+a.linkEmLinha::after {
+    content: "     📚";
+    font-family: 'roboto', sans-serif;
+    font-size: small;
+    color: #d43b73;
+}
+
+a.standardButton {
     color: rgb(97, 97, 97);
     width: 200px;
     display: flex;
@@ -136,9 +151,12 @@ a {
     border-radius: 50px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
     transition: 0.5s all;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-a:hover {
+a.standardButton:hover {
     color: #D91E63;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.15);
 }
@@ -187,11 +205,11 @@ div.lottieBox {
     align-items: center;
 }
 
-a.lottieButtonCase {
+/* a.standardButton  {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+} */
 
 lottie-player.lottieButton {
     width: 30px;
