@@ -1,5 +1,4 @@
 header.banner {
-    background-image: url(https://postimg.cc/RJ1R8rTx);
     background-color: aquamarine;
     padding: 30px 50px 20px;
     text-align: center;
@@ -149,7 +148,6 @@ a.linkEmLinha {
 
 a.linkEmLinha:hover {
     color: #9FE090;
-    /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25); */
     ;
 }
 
@@ -183,15 +181,6 @@ a.standardButton:hover {
     color: #D91E63;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.15);
 }
-
-/* .destaque {
-    transition: 0.2s all;
-    cursor: context-menu;
-}
-
-.destaque:hover {
-    color: #9FE090;
-} */
 
 ul.lista {
     list-style-position: outside;
@@ -228,7 +217,6 @@ div.imagemMenor {
 }
 
 div.lottieBoxHorizontal {
-    /* background-color: aquamarine; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -240,17 +228,10 @@ lottie-player.lottieIcon {
 }
 
 div.lottieBox {
-    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-/* a.standardButton  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} */
 
 lottie-player.lottieButton {
     width: 30px;
@@ -273,8 +254,8 @@ lottie-player.lottie:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 50px;
     transition: 0.3s all;
+    cursor: context-menu;
 }
 
 div.whatsapp:hover {
