@@ -107,7 +107,7 @@ img.fotoPerfil:hover {
 
 
 div.imagem {
-    border-radius: 15px;
+    border-radius: 8px;
     background-color: rgb(243, 243, 243);
     padding: 30px 30px;
     display: flex;
