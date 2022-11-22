@@ -22,6 +22,7 @@ h1 {
     padding-right: 5px;
     color: #D91E63;
     line-height: 115%;
+    cursor: context-menu;
 }
 
 h2 {
@@ -32,6 +33,7 @@ h2 {
     margin-bottom: 20px;
     color: #D91E63;
     transition: 0.3s all;
+    cursor: context-menu;
 }
 
 h2:hover {
@@ -60,6 +62,7 @@ h3 {
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
+    cursor: context-menu;
 }
 
 p {
@@ -86,6 +89,11 @@ img.fotoPerfil {
     border-radius: 500px;
     border: white 20px;
     border-width: 5px;
+    transition: 0.8s all;
+}
+
+img.fotoPerfil:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
 }
 
 
@@ -124,23 +132,21 @@ img.todasAsImagens:hover {
 
 a.linkEmLinha {
     text-decoration: none;
-    padding-left: 5px;
     font-family: 'Poppins', sans-serif;
     color: #D91E63;
     transition: 0.2s all;
 }
 
 a.linkEmLinha:hover {
-    color: #ffc061;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    color: #9FE090;
+    /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25); */
     ;
 }
 
-a.linkEmLinha::after {
-    content: "     📚";
-    font-family: 'roboto', sans-serif;
-    font-size: small;
-    color: #d43b73;
+.lottieEmLinha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 a.standardButton {
@@ -171,8 +177,17 @@ a.standardButton:hover {
 ul.lista {
     list-style-position: outside;
     list-style-image: url('https://i.postimg.cc/MHqTwy5K/check.png');
-    padding-left: 25px;
-    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-bottom: 8px;
+}
+
+ul.lista li {
+    transition: 0.5s all;
+    cursor: context-menu;
+}
+
+ul.lista li:hover {
+    color: #9FE090;
 }
 
 
