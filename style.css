@@ -65,6 +65,16 @@ h3 {
     cursor: context-menu;
 }
 
+strong {
+    transition: 0.2s all;
+}
+
+strong:hover {
+    transition: 0.2s all;
+    cursor: context-menu;
+    color: #9FE090;
+}
+
 p {
     padding-left: 5px;
     padding-right: 5px;
@@ -173,6 +183,15 @@ a.standardButton:hover {
     color: #D91E63;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.15);
 }
+
+/* .destaque {
+    transition: 0.2s all;
+    cursor: context-menu;
+}
+
+.destaque:hover {
+    color: #9FE090;
+} */
 
 ul.lista {
     list-style-position: outside;
