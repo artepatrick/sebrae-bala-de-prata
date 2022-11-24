@@ -98,8 +98,11 @@ img.fotoPerfil {
     border-radius: 500px;
     border: white 20px;
     border-width: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
     transition: 0.8s all;
 }
+
+
 
 img.fotoPerfil:hover {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
@@ -117,7 +120,7 @@ div.imagem {
     margin: 10px auto;
 }
 
-div.bloco iframe {
+div.imagem iframe {
     display: flex;
     flex-direction: column;
     min-width: 200px;
